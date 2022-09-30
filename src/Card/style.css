@@ -1,0 +1,53 @@
+.mainCard{
+    width: 560px;
+    height: 87px;
+
+    margin-top: 24px;
+
+    padding: 8px;
+
+    border-radius: 4px;
+
+    background-color: #F8F9FA;
+}
+.mainCard:hover{
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.divCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardDescription{
+    color: #212529;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+
+.cardValue{
+    color: #212529;
+    font-size: 12px;
+}
+
+.cardType{
+    color: #343A40;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.excluirCard{
+    width: 22px;
+    height: 22px;
+
+    border: none;
+    border-radius: 2;
+
+    margin-top: 8px;
+
+    cursor: pointer;
+
+    background-color: #E9ECEF;
+}
